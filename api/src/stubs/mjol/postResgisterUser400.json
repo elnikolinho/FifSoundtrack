@@ -1,0 +1,32 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "POST",
+        "path": "/ws/rest/user/v1/400/register"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 400,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": "400",
+          "errorCode": "HIL.MJOL.001",
+          "errorDescription": "Missing required request parameters",
+          "errorSubCode": "",
+          "furtherDetails": "",
+          "docLink": ""
+        }
+      }
+    }
+  ]
+}

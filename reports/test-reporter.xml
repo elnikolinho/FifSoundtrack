@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\helpers.test.ts">
+        <testCase name="setDevice should return breakpoint object" duration="4"/>
+        <testCase name="getWordCount return word count" duration="1"/>
+        <testCase name="deleteNullAndUndefinedKey return object with deleted undefined and null value key" duration="1"/>
+        <testCase name="deleteNullAndUndefinedKey Return input as it is if it is not a javascript object" duration="1"/>
+        <testCase name="parseFloatAndRoundTo2DecimalPlaces should return a float with 2 decimal places when 6 decimal places are passed in" duration="1"/>
+        <testCase name="parseFloatAndRoundTo2DecimalPlaces should return with the rounded number" duration="1"/>
+        <testCase name="parseFloatAndRoundTo2DecimalPlaces should return the same value when there is no decimals to round to" duration="1"/>
+        <testCase name="parseFloatAndRoundTo2DecimalPlaces should return the same value when user enters 600.8" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\api.test.ts">
+        <testCase name="get api url functions getServerUrl should return correct Server Url" duration="2"/>
+        <testCase name="constructErrorResponse should return ResponseType.Error if response status is NOT a successful response, with fallback title and description" duration="3"/>
+        <testCase name="constructErrorResponse should return with default description if HIL code isn&apos;t found" duration="0"/>
+        <testCase name="constructErrorResponse should return with title if it is passed in as a parameter" duration="1"/>
+        <testCase name="constructErrorResponse should return with description if it is passed in as a parameter" duration="0"/>
+        <testCase name="constructErrorResponse should return with Code if it is passed in as a parameter" duration="1"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\formatters.test.ts">
+        <testCase name="formatDate should provide a formatted date based on the parameters that gets passed in" duration="10"/>
+        <testCase name="formatDatePersistTimezone should provide a formatted date based on the parameters that gets passed in" duration="3"/>
+        <testCase name="formatDatePersistTimezone should return undefined if the rawDate is undefined" duration="0"/>
+        <testCase name="formatPercentage should provide a formatted percentage when a number is passed in" duration="4"/>
+        <testCase name="formatPercentage should return empty string if value is undefined or invalid numbers" duration="2"/>
+        <testCase name="removePercentage should remove the percentage from the string" duration="2"/>
+        <testCase name="convertToSentenceCase should format words to sentence case (first letter on each word capitalised)" duration="2"/>
+        <testCase name="isValidDateInput should return a truthy value if the date format is valid" duration="1"/>
+        <testCase name="isValidDateInput should return a falsy value if the date format is invalid" duration="0"/>
+        <testCase name="formatUTCDate should provide a UTC formatted date" duration="95"/>
+        <testCase name="formatUTCDate should provide a UTC formatted date with format DD/M/YYYY by default" duration="1"/>
+        <testCase name="formatUTCDate should return invalid date if the rawDate is an invalid date" duration="0"/>
+        <testCase name="formatDateToISO8601 should provide a ISO8601 formatted date" duration="1"/>
+        <testCase name="getToday should provide today&apos;s date.
+    As we are not able to test the current date,
+    we should test that is is defined." duration="1"/>
+        <testCase name="getEndOfFinYear should provide the start of this financial year" duration="2"/>
+        <testCase name="getStartOfFinYear should provide the start of this financial year" duration="2"/>
+        <testCase name="getFullYearFromDate should return the year from the date passed in" duration="0"/>
+        <testCase name="removeCommaFromValue should remove commas from the value that gets passed in" duration="0"/>
+        <testCase name="removeCommaFromValue should retain the same value if the value has no commas" duration="0"/>
+        <testCase name="removeCommaFromValue should return null when value is undefined" duration="0"/>
+        <testCase name="removeDecimals should remove decimals from the value that gets passed in" duration="3"/>
+        <testCase name="removeDecimals should retain the same value if the value has no decimals" duration="0"/>
+        <testCase name="removeDecimals should return null when value is undefined" duration="0"/>
+        <testCase name="removeDollarAndCommas should remove commas and dollars from the value that gets passed in" duration="0"/>
+        <testCase name="removeDollarAndCommas should retain the same value if the value has no commas" duration="1"/>
+        <testCase name="removeDollarAndCommas should retain the same value if the value has decimals" duration="0"/>
+        <testCase name="removeDollarAndCommas should remove third decimal if three are passed in" duration="0"/>
+        <testCase name="removeDollarAndCommas should return empty string if value ius undefined" duration="0"/>
+        <testCase name="addDollarAndCommas should add commas to value" duration="16"/>
+        <testCase name="addDollarAndCommas should keep decimal places" duration="0"/>
+        <testCase name="addDollarAndCommas should keep decimal places if there is no value behind the decimal" duration="0"/>
+        <testCase name="addDollarAndCommas keeps decimal when returns" duration="0"/>
+        <testCase name="addDollarAndCommas keeps first 0 after decimal" duration="0"/>
+        <testCase name="addDollarAndCommas keeps first 0 after decimal" duration="0"/>
+        <testCase name="addDollarAndCommas returns 0 with dollars and commas" duration="1"/>
+        <testCase name="addDollarAndCommas returns 0 with dollars and commas" duration="0"/>
+        <testCase name="addDollarAndCommas returns null if value is undefined" duration="0"/>
+        <testCase name="addDollarAndCommas returns 0. if value is ." duration="1"/>
+        <testCase name="addDollarAndCommas returns $0.00 if input is 0 and isRounded is false or undefined" duration="0"/>
+        <testCase name="addDollarAndCommas returns $0 if input is 0 and isRounded is true" duration="0"/>
+        <testCase name="addDollarAndCommas removes 0 after decimal if the number after decimal is 0" duration="0"/>
+        <testCase name="addDollarAndCommas returns value with 2 decimals if isBlur is true and input value has decimals" duration="1"/>
+        <testCase name="addDollarAndCommas returns formatted whole number if isBlur is true and input value has no decimals" duration="0"/>
+        <testCase name="addCommaToThousands should convert the type from number to string" duration="1"/>
+        <testCase name="addCommaToThousands should add a comma separator to every thousand" duration="0"/>
+        <testCase name="addCommaToThousands should not add a comma separator if the value does not reach a thousand" duration="0"/>
+        <testCase name="addCommaToThousands should add commas at the fourth position of the value" duration="1"/>
+        <testCase name="addCommaToThousands should remove the commas and add commas at the fourth position of the value" duration="0"/>
+        <testCase name="addCommaToThousands should return null if value in undefined" duration="0"/>
+        <testCase name="addCommaAndDecimals should add commas and decimals to the value" duration="0"/>
+        <testCase name="addCommaAndDecimals should be rounded and add commas to the value" duration="0"/>
+        <testCase name="addCommaAndDecimals should return null if value is undefined" duration="1"/>
+        <testCase name="addDollarCommasAndDecimals should add commas to value" duration="0"/>
+        <testCase name="addDollarCommasAndDecimals should keep decimal places" duration="0"/>
+        <testCase name="formatMoney should add dollar sign, commas and decimals to the value" duration="0"/>
+        <testCase name="allowForInternationalNumbers should remove any characters not related to international calls" duration="0"/>
+        <testCase name="allowForInternationalNumbers should return null if value is undefined" duration="0"/>
+        <testCase name="removeNumbersAndSpecialChars should remove any numbers and special characters" duration="0"/>
+        <testCase name="removeNumbersAndSpecialChars should return null if value is undefined" duration="0"/>
+        <testCase name="formatStringToDate should format string to date" duration="1"/>
+        <testCase name="removeNonNumbers should convert to an empty string when a letter is entered" duration="1"/>
+        <testCase name="removeNonNumbers should convert to an empty string when a symbol is entered" duration="0"/>
+        <testCase name="removeNonNumbers should return a number when a number is entered" duration="0"/>
+        <testCase name="removeNonNumbers should return null if value is undefined" duration="0"/>
+        <testCase name="formatPhoneNumber should convert to an empty string when a letter is entered" duration="0"/>
+        <testCase name="formatPhoneNumber should convert to an empty string when a symbol is entered" duration="0"/>
+        <testCase name="formatPhoneNumber should return a + when a + is entered in the first position" duration="0"/>
+        <testCase name="formatPhoneNumber should return a the correct string when a + is entered not in the first position" duration="1"/>
+        <testCase name="formatPhoneNumber should return a number when a number is entered" duration="0"/>
+        <testCase name="formatPhoneNumber should return null if value is undefined" duration="0"/>
+        <testCase name="addressToString should convert an address object passed in to one single line" duration="0"/>
+        <testCase name="addressToString should convert an address object with undefined value passed in to one single line" duration="0"/>
+        <testCase name="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" duration="0"/>
+        <testCase name="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" duration="0"/>
+        <testCase name="booleanToYesOrNo Should return &quot;Yes&quot; if true" duration="1"/>
+        <testCase name="booleanToYesOrNo Should return &quot;No&quot; if false" duration="0"/>
+        <testCase name="booleanToCoveredOrNotCovered Should return &quot;Covered&quot; if true" duration="0"/>
+        <testCase name="booleanToCoveredOrNotCovered Should return &quot;Not Covered&quot; if false" duration="0"/>
+        <testCase name="formatBalanceAmount should add + sign with the amount if the balance amount greater than or equal to 0" duration="1"/>
+        <testCase name="formatBalanceAmount should add - sign with the amount if the balance amount less than 0" duration="0"/>
+        <testCase name="hashedPhoneNumber should convert the phone number&apos;s first 6 numbers to a X
+      and a space after the 4th and 7th digit" duration="0"/>
+        <testCase name="getFormattedDateDiff should return 0 0 0 0 when both dates are same" duration="1"/>
+        <testCase name="getFormattedDateDiff should return 1 0 0 0 when dates are exactly one year apart" duration="1"/>
+        <testCase name="getFormattedDateDiff should return difference in days when both dates are same" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\validators.test.tsx">
+        <testCase name="isValidDate Should return true if the date is valid" duration="2"/>
+        <testCase name="isValidDate Should return false if the date is invalid" duration="0"/>
+        <testCase name="isValidDate Should return true if future date is allowed" duration="1"/>
+        <testCase name="isValidMobile Should return true if the date is valid" duration="4"/>
+        <testCase name="isValidMobile Should return true if the date is valid" duration="2"/>
+        <testCase name="isValidMobile Should return true if the mobile number is invalid" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\routes\index.test.tsx">
+        <testCase name="Routes renders without crashing" duration="23"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\selectors\index.test.ts">
+        <testCase name="getTotalNumberOfQuiz Selector should return value of totalNumberOfQuiz" duration="1"/>
+        <testCase name="getCurrentQuizNo Selector should return value of currentQuizNo" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\analytics.test.ts">
+        <testCase name="Analytics util methods test Site data object should be return with all the data field" duration="22"/>
+        <testCase name="Analytics util methods test System env should return as &quot;Localhost&quot;" duration="0"/>
+        <testCase name="Analytics util methods test Device type should return as &quot;Desktop&quot;" duration="0"/>
+        <testCase name="Analytics util methods test Page data object should be returned empty for empty pagePath" duration="10"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\getCategoryCopy.test.ts">
+        <testCase name="getCategoryCopy getCategoryCopy should return correct copy" duration="1"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\reducers\global.test.ts">
+        <testCase name="setBreakpoint reducer should captures a dispatch to set active break point" duration="2"/>
+        <testCase name="setTotalNumberOfQuiz reducer should set the value of totalNumberOfQuiz" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\cleanAemPath.test.ts">
+        <testCase name="getCleanAemPath Remove AEM path from given string and add json extension" duration="5"/>
+        <testCase name="getCleanAemPath Should return empty sting if full path is empty" duration="1"/>
+        <testCase name="getAemModelName Get model name from path" duration="0"/>
+        <testCase name="getAemModelName Get model name from path from nested path" duration="0"/>
+        <testCase name="getAemModelName Should return empty sting if full path is empty" duration="1"/>
+        <testCase name="formatAemPathsUrlParam Get goal &amp; advice paths" duration="0"/>
+    </file>
+    <file path="C:\Users\Nikolai\Documents\TestSite\src\shared\utils\errors.test.ts">
+        <testCase name="AjaxError should have 404 error by default if no code is provided" duration="0"/>
+        <testCase name="AjaxError should set the response.code to input code if it is provided" duration="0"/>
+    </file>
+</testExecutions>

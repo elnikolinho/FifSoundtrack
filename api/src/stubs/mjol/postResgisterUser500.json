@@ -1,0 +1,32 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "POST",
+        "path": "/ws/rest/user/v1/500/register"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 500,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": "500",
+          "errorCode": "HIL.MJOL.002",
+          "errorDescription": "Internal Server Error",
+          "errorSubCode": "",
+          "furtherDetails": "Failed to get the application details from database.",
+          "docLink": ""
+        }
+      }
+    }
+  ]
+}

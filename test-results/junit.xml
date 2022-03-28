@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="122" failures="0" errors="0" time="6.963">
+  <testsuite name="setDevice" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:38" time="2.249" tests="8">
+    <testcase classname="setDevice should return breakpoint object" name="setDevice should return breakpoint object" time="0.004">
+    </testcase>
+    <testcase classname="getWordCount return word count" name="getWordCount return word count" time="0.001">
+    </testcase>
+    <testcase classname="deleteNullAndUndefinedKey return object with deleted undefined and null value key" name="deleteNullAndUndefinedKey return object with deleted undefined and null value key" time="0.001">
+    </testcase>
+    <testcase classname="deleteNullAndUndefinedKey Return input as it is if it is not a javascript object" name="deleteNullAndUndefinedKey Return input as it is if it is not a javascript object" time="0.001">
+    </testcase>
+    <testcase classname="parseFloatAndRoundTo2DecimalPlaces should return a float with 2 decimal places when 6 decimal places are passed in" name="parseFloatAndRoundTo2DecimalPlaces should return a float with 2 decimal places when 6 decimal places are passed in" time="0.001">
+    </testcase>
+    <testcase classname="parseFloatAndRoundTo2DecimalPlaces should return with the rounded number" name="parseFloatAndRoundTo2DecimalPlaces should return with the rounded number" time="0.001">
+    </testcase>
+    <testcase classname="parseFloatAndRoundTo2DecimalPlaces should return the same value when there is no decimals to round to" name="parseFloatAndRoundTo2DecimalPlaces should return the same value when there is no decimals to round to" time="0.001">
+    </testcase>
+    <testcase classname="parseFloatAndRoundTo2DecimalPlaces should return the same value when user enters 600.8" name="parseFloatAndRoundTo2DecimalPlaces should return the same value when user enters 600.8" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="get api url functions" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:38" time="2.365" tests="6">
+    <testcase classname="get api url functions getServerUrl should return correct Server Url" name="get api url functions getServerUrl should return correct Server Url" time="0.002">
+    </testcase>
+    <testcase classname="constructErrorResponse should return ResponseType.Error if response status is NOT a successful response, with fallback title and description" name="constructErrorResponse should return ResponseType.Error if response status is NOT a successful response, with fallback title and description" time="0.003">
+    </testcase>
+    <testcase classname="constructErrorResponse should return with default description if HIL code isn&apos;t found" name="constructErrorResponse should return with default description if HIL code isn&apos;t found" time="0">
+    </testcase>
+    <testcase classname="constructErrorResponse should return with title if it is passed in as a parameter" name="constructErrorResponse should return with title if it is passed in as a parameter" time="0.001">
+    </testcase>
+    <testcase classname="constructErrorResponse should return with description if it is passed in as a parameter" name="constructErrorResponse should return with description if it is passed in as a parameter" time="0">
+    </testcase>
+    <testcase classname="constructErrorResponse should return with Code if it is passed in as a parameter" name="constructErrorResponse should return with Code if it is passed in as a parameter" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatDate" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:38" time="2.488" tests="84">
+    <testcase classname="formatDate should provide a formatted date based on the parameters that gets passed in" name="formatDate should provide a formatted date based on the parameters that gets passed in" time="0.01">
+    </testcase>
+    <testcase classname="formatDatePersistTimezone should provide a formatted date based on the parameters that gets passed in" name="formatDatePersistTimezone should provide a formatted date based on the parameters that gets passed in" time="0.003">
+    </testcase>
+    <testcase classname="formatDatePersistTimezone should return undefined if the rawDate is undefined" name="formatDatePersistTimezone should return undefined if the rawDate is undefined" time="0">
+    </testcase>
+    <testcase classname="formatPercentage should provide a formatted percentage when a number is passed in" name="formatPercentage should provide a formatted percentage when a number is passed in" time="0.004">
+    </testcase>
+    <testcase classname="formatPercentage should return empty string if value is undefined or invalid numbers" name="formatPercentage should return empty string if value is undefined or invalid numbers" time="0.002">
+    </testcase>
+    <testcase classname="removePercentage should remove the percentage from the string" name="removePercentage should remove the percentage from the string" time="0.002">
+    </testcase>
+    <testcase classname="convertToSentenceCase should format words to sentence case (first letter on each word capitalised)" name="convertToSentenceCase should format words to sentence case (first letter on each word capitalised)" time="0.002">
+    </testcase>
+    <testcase classname="isValidDateInput should return a truthy value if the date format is valid" name="isValidDateInput should return a truthy value if the date format is valid" time="0.001">
+    </testcase>
+    <testcase classname="isValidDateInput should return a falsy value if the date format is invalid" name="isValidDateInput should return a falsy value if the date format is invalid" time="0">
+    </testcase>
+    <testcase classname="formatUTCDate should provide a UTC formatted date" name="formatUTCDate should provide a UTC formatted date" time="0.095">
+    </testcase>
+    <testcase classname="formatUTCDate should provide a UTC formatted date with format DD/M/YYYY by default" name="formatUTCDate should provide a UTC formatted date with format DD/M/YYYY by default" time="0.001">
+    </testcase>
+    <testcase classname="formatUTCDate should return invalid date if the rawDate is an invalid date" name="formatUTCDate should return invalid date if the rawDate is an invalid date" time="0">
+    </testcase>
+    <testcase classname="formatDateToISO8601 should provide a ISO8601 formatted date" name="formatDateToISO8601 should provide a ISO8601 formatted date" time="0.001">
+    </testcase>
+    <testcase classname="getToday should provide today&apos;s date.
+    As we are not able to test the current date,
+    we should test that is is defined." name="getToday should provide today&apos;s date.
+    As we are not able to test the current date,
+    we should test that is is defined." time="0.001">
+    </testcase>
+    <testcase classname="getEndOfFinYear should provide the start of this financial year" name="getEndOfFinYear should provide the start of this financial year" time="0.002">
+    </testcase>
+    <testcase classname="getStartOfFinYear should provide the start of this financial year" name="getStartOfFinYear should provide the start of this financial year" time="0.002">
+    </testcase>
+    <testcase classname="getFullYearFromDate should return the year from the date passed in" name="getFullYearFromDate should return the year from the date passed in" time="0">
+    </testcase>
+    <testcase classname="removeCommaFromValue should remove commas from the value that gets passed in" name="removeCommaFromValue should remove commas from the value that gets passed in" time="0">
+    </testcase>
+    <testcase classname="removeCommaFromValue should retain the same value if the value has no commas" name="removeCommaFromValue should retain the same value if the value has no commas" time="0">
+    </testcase>
+    <testcase classname="removeCommaFromValue should return null when value is undefined" name="removeCommaFromValue should return null when value is undefined" time="0">
+    </testcase>
+    <testcase classname="removeDecimals should remove decimals from the value that gets passed in" name="removeDecimals should remove decimals from the value that gets passed in" time="0.003">
+    </testcase>
+    <testcase classname="removeDecimals should retain the same value if the value has no decimals" name="removeDecimals should retain the same value if the value has no decimals" time="0">
+    </testcase>
+    <testcase classname="removeDecimals should return null when value is undefined" name="removeDecimals should return null when value is undefined" time="0">
+    </testcase>
+    <testcase classname="removeDollarAndCommas should remove commas and dollars from the value that gets passed in" name="removeDollarAndCommas should remove commas and dollars from the value that gets passed in" time="0">
+    </testcase>
+    <testcase classname="removeDollarAndCommas should retain the same value if the value has no commas" name="removeDollarAndCommas should retain the same value if the value has no commas" time="0.001">
+    </testcase>
+    <testcase classname="removeDollarAndCommas should retain the same value if the value has decimals" name="removeDollarAndCommas should retain the same value if the value has decimals" time="0">
+    </testcase>
+    <testcase classname="removeDollarAndCommas should remove third decimal if three are passed in" name="removeDollarAndCommas should remove third decimal if three are passed in" time="0">
+    </testcase>
+    <testcase classname="removeDollarAndCommas should return empty string if value ius undefined" name="removeDollarAndCommas should return empty string if value ius undefined" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas should add commas to value" name="addDollarAndCommas should add commas to value" time="0.016">
+    </testcase>
+    <testcase classname="addDollarAndCommas should keep decimal places" name="addDollarAndCommas should keep decimal places" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas should keep decimal places if there is no value behind the decimal" name="addDollarAndCommas should keep decimal places if there is no value behind the decimal" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas keeps decimal when returns" name="addDollarAndCommas keeps decimal when returns" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas keeps first 0 after decimal" name="addDollarAndCommas keeps first 0 after decimal" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas keeps first 0 after decimal" name="addDollarAndCommas keeps first 0 after decimal" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns 0 with dollars and commas" name="addDollarAndCommas returns 0 with dollars and commas" time="0.001">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns 0 with dollars and commas" name="addDollarAndCommas returns 0 with dollars and commas" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns null if value is undefined" name="addDollarAndCommas returns null if value is undefined" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns 0. if value is ." name="addDollarAndCommas returns 0. if value is ." time="0.001">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns $0.00 if input is 0 and isRounded is false or undefined" name="addDollarAndCommas returns $0.00 if input is 0 and isRounded is false or undefined" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns $0 if input is 0 and isRounded is true" name="addDollarAndCommas returns $0 if input is 0 and isRounded is true" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas removes 0 after decimal if the number after decimal is 0" name="addDollarAndCommas removes 0 after decimal if the number after decimal is 0" time="0">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns value with 2 decimals if isBlur is true and input value has decimals" name="addDollarAndCommas returns value with 2 decimals if isBlur is true and input value has decimals" time="0.001">
+    </testcase>
+    <testcase classname="addDollarAndCommas returns formatted whole number if isBlur is true and input value has no decimals" name="addDollarAndCommas returns formatted whole number if isBlur is true and input value has no decimals" time="0">
+    </testcase>
+    <testcase classname="addCommaToThousands should convert the type from number to string" name="addCommaToThousands should convert the type from number to string" time="0.001">
+    </testcase>
+    <testcase classname="addCommaToThousands should add a comma separator to every thousand" name="addCommaToThousands should add a comma separator to every thousand" time="0">
+    </testcase>
+    <testcase classname="addCommaToThousands should not add a comma separator if the value does not reach a thousand" name="addCommaToThousands should not add a comma separator if the value does not reach a thousand" time="0">
+    </testcase>
+    <testcase classname="addCommaToThousands should add commas at the fourth position of the value" name="addCommaToThousands should add commas at the fourth position of the value" time="0.001">
+    </testcase>
+    <testcase classname="addCommaToThousands should remove the commas and add commas at the fourth position of the value" name="addCommaToThousands should remove the commas and add commas at the fourth position of the value" time="0">
+    </testcase>
+    <testcase classname="addCommaToThousands should return null if value in undefined" name="addCommaToThousands should return null if value in undefined" time="0">
+    </testcase>
+    <testcase classname="addCommaAndDecimals should add commas and decimals to the value" name="addCommaAndDecimals should add commas and decimals to the value" time="0">
+    </testcase>
+    <testcase classname="addCommaAndDecimals should be rounded and add commas to the value" name="addCommaAndDecimals should be rounded and add commas to the value" time="0">
+    </testcase>
+    <testcase classname="addCommaAndDecimals should return null if value is undefined" name="addCommaAndDecimals should return null if value is undefined" time="0.001">
+    </testcase>
+    <testcase classname="addDollarCommasAndDecimals should add commas to value" name="addDollarCommasAndDecimals should add commas to value" time="0">
+    </testcase>
+    <testcase classname="addDollarCommasAndDecimals should keep decimal places" name="addDollarCommasAndDecimals should keep decimal places" time="0">
+    </testcase>
+    <testcase classname="formatMoney should add dollar sign, commas and decimals to the value" name="formatMoney should add dollar sign, commas and decimals to the value" time="0">
+    </testcase>
+    <testcase classname="allowForInternationalNumbers should remove any characters not related to international calls" name="allowForInternationalNumbers should remove any characters not related to international calls" time="0">
+    </testcase>
+    <testcase classname="allowForInternationalNumbers should return null if value is undefined" name="allowForInternationalNumbers should return null if value is undefined" time="0">
+    </testcase>
+    <testcase classname="removeNumbersAndSpecialChars should remove any numbers and special characters" name="removeNumbersAndSpecialChars should remove any numbers and special characters" time="0">
+    </testcase>
+    <testcase classname="removeNumbersAndSpecialChars should return null if value is undefined" name="removeNumbersAndSpecialChars should return null if value is undefined" time="0">
+    </testcase>
+    <testcase classname="formatStringToDate should format string to date" name="formatStringToDate should format string to date" time="0.001">
+    </testcase>
+    <testcase classname="removeNonNumbers should convert to an empty string when a letter is entered" name="removeNonNumbers should convert to an empty string when a letter is entered" time="0.001">
+    </testcase>
+    <testcase classname="removeNonNumbers should convert to an empty string when a symbol is entered" name="removeNonNumbers should convert to an empty string when a symbol is entered" time="0">
+    </testcase>
+    <testcase classname="removeNonNumbers should return a number when a number is entered" name="removeNonNumbers should return a number when a number is entered" time="0">
+    </testcase>
+    <testcase classname="removeNonNumbers should return null if value is undefined" name="removeNonNumbers should return null if value is undefined" time="0">
+    </testcase>
+    <testcase classname="formatPhoneNumber should convert to an empty string when a letter is entered" name="formatPhoneNumber should convert to an empty string when a letter is entered" time="0">
+    </testcase>
+    <testcase classname="formatPhoneNumber should convert to an empty string when a symbol is entered" name="formatPhoneNumber should convert to an empty string when a symbol is entered" time="0">
+    </testcase>
+    <testcase classname="formatPhoneNumber should return a + when a + is entered in the first position" name="formatPhoneNumber should return a + when a + is entered in the first position" time="0">
+    </testcase>
+    <testcase classname="formatPhoneNumber should return a the correct string when a + is entered not in the first position" name="formatPhoneNumber should return a the correct string when a + is entered not in the first position" time="0.001">
+    </testcase>
+    <testcase classname="formatPhoneNumber should return a number when a number is entered" name="formatPhoneNumber should return a number when a number is entered" time="0">
+    </testcase>
+    <testcase classname="formatPhoneNumber should return null if value is undefined" name="formatPhoneNumber should return null if value is undefined" time="0">
+    </testcase>
+    <testcase classname="addressToString should convert an address object passed in to one single line" name="addressToString should convert an address object passed in to one single line" time="0">
+    </testcase>
+    <testcase classname="addressToString should convert an address object with undefined value passed in to one single line" name="addressToString should convert an address object with undefined value passed in to one single line" time="0">
+    </testcase>
+    <testcase classname="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" name="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" time="0">
+    </testcase>
+    <testcase classname="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" name="formatDateToYYYYMMDD should provide a YYYY-MM-DD[T]00:00:00+10:00 AET formatted date" time="0">
+    </testcase>
+    <testcase classname="booleanToYesOrNo Should return &quot;Yes&quot; if true" name="booleanToYesOrNo Should return &quot;Yes&quot; if true" time="0.001">
+    </testcase>
+    <testcase classname="booleanToYesOrNo Should return &quot;No&quot; if false" name="booleanToYesOrNo Should return &quot;No&quot; if false" time="0">
+    </testcase>
+    <testcase classname="booleanToCoveredOrNotCovered Should return &quot;Covered&quot; if true" name="booleanToCoveredOrNotCovered Should return &quot;Covered&quot; if true" time="0">
+    </testcase>
+    <testcase classname="booleanToCoveredOrNotCovered Should return &quot;Not Covered&quot; if false" name="booleanToCoveredOrNotCovered Should return &quot;Not Covered&quot; if false" time="0">
+    </testcase>
+    <testcase classname="formatBalanceAmount should add + sign with the amount if the balance amount greater than or equal to 0" name="formatBalanceAmount should add + sign with the amount if the balance amount greater than or equal to 0" time="0.001">
+    </testcase>
+    <testcase classname="formatBalanceAmount should add - sign with the amount if the balance amount less than 0" name="formatBalanceAmount should add - sign with the amount if the balance amount less than 0" time="0">
+    </testcase>
+    <testcase classname="hashedPhoneNumber should convert the phone number&apos;s first 6 numbers to a X
+      and a space after the 4th and 7th digit" name="hashedPhoneNumber should convert the phone number&apos;s first 6 numbers to a X
+      and a space after the 4th and 7th digit" time="0">
+    </testcase>
+    <testcase classname="getFormattedDateDiff should return 0 0 0 0 when both dates are same" name="getFormattedDateDiff should return 0 0 0 0 when both dates are same" time="0.001">
+    </testcase>
+    <testcase classname="getFormattedDateDiff should return 1 0 0 0 when dates are exactly one year apart" name="getFormattedDateDiff should return 1 0 0 0 when dates are exactly one year apart" time="0.001">
+    </testcase>
+    <testcase classname="getFormattedDateDiff should return difference in days when both dates are same" name="getFormattedDateDiff should return difference in days when both dates are same" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="isValidDate" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.405" tests="6">
+    <testcase classname="isValidDate Should return true if the date is valid" name="isValidDate Should return true if the date is valid" time="0.002">
+    </testcase>
+    <testcase classname="isValidDate Should return false if the date is invalid" name="isValidDate Should return false if the date is invalid" time="0">
+    </testcase>
+    <testcase classname="isValidDate Should return true if future date is allowed" name="isValidDate Should return true if future date is allowed" time="0.001">
+    </testcase>
+    <testcase classname="isValidMobile Should return true if the date is valid" name="isValidMobile Should return true if the date is valid" time="0.004">
+    </testcase>
+    <testcase classname="isValidMobile Should return true if the date is valid" name="isValidMobile Should return true if the date is valid" time="0.002">
+    </testcase>
+    <testcase classname="isValidMobile Should return true if the mobile number is invalid" name="isValidMobile Should return true if the mobile number is invalid" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.547" tests="1">
+    <testcase classname=" Routes renders without crashing" name=" Routes renders without crashing" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="getTotalNumberOfQuiz Selector" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:40" time="0.752" tests="2">
+    <testcase classname="getTotalNumberOfQuiz Selector should return value of totalNumberOfQuiz" name="getTotalNumberOfQuiz Selector should return value of totalNumberOfQuiz" time="0.001">
+    </testcase>
+    <testcase classname="getCurrentQuizNo Selector should return value of currentQuizNo" name="getCurrentQuizNo Selector should return value of currentQuizNo" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Analytics util methods test" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.334" tests="4">
+    <testcase classname="Analytics util methods test Site data object should be return with all the data field" name="Analytics util methods test Site data object should be return with all the data field" time="0.022">
+    </testcase>
+    <testcase classname="Analytics util methods test System env should return as &quot;Localhost&quot;" name="Analytics util methods test System env should return as &quot;Localhost&quot;" time="0">
+    </testcase>
+    <testcase classname="Analytics util methods test Device type should return as &quot;Desktop&quot;" name="Analytics util methods test Device type should return as &quot;Desktop&quot;" time="0">
+    </testcase>
+    <testcase classname="Analytics util methods test Page data object should be returned empty for empty pagePath" name="Analytics util methods test Page data object should be returned empty for empty pagePath" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="getCategoryCopy" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.284" tests="1">
+    <testcase classname="getCategoryCopy getCategoryCopy should return correct copy" name="getCategoryCopy getCategoryCopy should return correct copy" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="setBreakpoint reducer" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.436" tests="2">
+    <testcase classname="setBreakpoint reducer should captures a dispatch to set active break point" name="setBreakpoint reducer should captures a dispatch to set active break point" time="0.002">
+    </testcase>
+    <testcase classname="setTotalNumberOfQuiz reducer should set the value of totalNumberOfQuiz" name="setTotalNumberOfQuiz reducer should set the value of totalNumberOfQuiz" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="getCleanAemPath" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.264" tests="6">
+    <testcase classname="getCleanAemPath Remove AEM path from given string and add json extension" name="getCleanAemPath Remove AEM path from given string and add json extension" time="0.005">
+    </testcase>
+    <testcase classname="getCleanAemPath Should return empty sting if full path is empty" name="getCleanAemPath Should return empty sting if full path is empty" time="0.001">
+    </testcase>
+    <testcase classname="getAemModelName Get model name from path" name="getAemModelName Get model name from path" time="0">
+    </testcase>
+    <testcase classname="getAemModelName Get model name from path from nested path" name="getAemModelName Get model name from path from nested path" time="0">
+    </testcase>
+    <testcase classname="getAemModelName Should return empty sting if full path is empty" name="getAemModelName Should return empty sting if full path is empty" time="0.001">
+    </testcase>
+    <testcase classname="formatAemPathsUrlParam Get goal &amp; advice paths" name="formatAemPathsUrlParam Get goal &amp; advice paths" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="AjaxError" errors="0" failures="0" skipped="0" timestamp="2022-03-03T03:50:41" time="0.257" tests="2">
+    <testcase classname="AjaxError should have 404 error by default if no code is provided" name="AjaxError should have 404 error by default if no code is provided" time="0">
+    </testcase>
+    <testcase classname="AjaxError should set the response.code to input code if it is provided" name="AjaxError should set the response.code to input code if it is provided" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

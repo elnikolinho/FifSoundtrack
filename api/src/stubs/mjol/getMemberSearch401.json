@@ -1,0 +1,32 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "GET",
+        "path": "/ws/rest/user/v1/*/401/member-search"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 400,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": "401",
+          "errorCode": "HIL.GEN.401",
+          "errorDescription": "Unauthorized",
+          "errorSubCode": "",
+          "furtherDetails": "The user was not authenticated or authorized to access this resource",
+          "docLink": ""
+        }
+      }
+    }
+  ]
+}

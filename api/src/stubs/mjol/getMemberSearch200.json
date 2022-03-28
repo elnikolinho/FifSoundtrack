@@ -1,0 +1,33 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "GET",
+        "path": "/ws/rest/user/v1/*/member-search"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "memberNumber": "4401784",
+          "planCode": "HS",
+          "customerReference": "4401234",
+          "title": "Mr",
+          "givenNames": "Bob john",
+          "familyName": "Hendrix",
+          "birthDate": "1949-01-02"
+        }
+      }
+    }
+  ]
+}

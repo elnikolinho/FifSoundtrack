@@ -1,0 +1,29 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "POST",
+        "path": "/ws/rest/user/v1/register"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "id": "00u1d6o486IWcTybn5d7",
+          "registrationCode": "MJOL.USR.002",
+          "registrationStatus": "Previous application exists"
+        }
+      }
+    }
+  ]
+}

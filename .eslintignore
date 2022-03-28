@@ -1,0 +1,9 @@
+node_modules
+build
+./src/**/__tests__/**
+./src/**/*.{spec,test,style}.{js,jsx,ts,tsx}
+.storybook
+./src/stories/
+
+# Ignore generated css module TypeScript declarations
+/src/**/*.module.*.d.ts

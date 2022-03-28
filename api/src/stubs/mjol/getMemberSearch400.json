@@ -1,0 +1,32 @@
+{
+  "predicates": [
+    {
+      "matches": {
+        "method": "GET",
+        "path": "/ws/rest/user/v1/*/400/member-search"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "_behaviors": {
+        "wait": 2000
+      },
+      "is": {
+        "statusCode": 400,
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": "400",
+          "errorCode": "HIL.MBR.001",
+          "errorDescription": "Missing required request parameters",
+          "errorSubCode": "",
+          "furtherDetails": "",
+          "docLink": ""
+        }
+      }
+    }
+  ]
+}
